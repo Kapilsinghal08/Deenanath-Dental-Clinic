@@ -504,15 +504,13 @@ const DoctorSection = () => {
 
         <div className="grid lg:grid-cols-2 gap-12 items-center max-w-5xl mx-auto">
           {/* Doctor Image */}
-          <div className="relative">
-            <div className="relative w-72 h-72 sm:w-80 sm:h-80 mx-auto">
-              <div className="absolute inset-0 bg-gradient-to-br from-dental-blue to-dental-teal rounded-full opacity-20 animate-pulse-glow" />
-              <img
-                src="https://i.postimg.cc/T3cjw7Fj/2023-11-08.jpg"
-                alt="Dr. Aditya Prakash Pathak"
-                className="w-full h-full object-cover rounded-full border-4 border-white shadow-2xl relative z-10"
-              />
-            </div>
+          <div className="flex justify-center lg:justify-start">
+            <img
+              src="https://i.postimg.cc/T3cjw7Fj/2023-11-08.jpg"
+              alt="Dr. Aditya Prakash Pathak"
+              className="w-72 h-72 sm:w-80 sm:h-80 object-cover rounded-full border-4 border-white shadow-2xl"
+            />
+          </div>
           {/* Doctor Info */}
           <div className="space-y-6">
             <div>
