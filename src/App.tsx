@@ -504,7 +504,7 @@ const DoctorSection = () => {
 
         <div className="grid lg:grid-cols-2 gap-12 items-center max-w-5xl mx-auto">
           {/* Doctor Image */}
-          <div className="flex justify-center lg:justify-start">
+          <div className="flex justify-center lg:justify-start lg:ml-8">
             <img
               src="https://i.postimg.cc/T3cjw7Fj/2023-11-08.jpg"
               alt="Dr. Aditya Prakash Pathak"
